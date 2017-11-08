@@ -1,0 +1,6 @@
+
+description = ''
+dependencies {
+    compile group: 'com.idbs.thirdparty.biojava', name: 'biojava', version:'1.7.1'
+    compile group: 'com.idbs.thirdparty.biojava', name: 'bytecode', version:'1.7.1'
+}
