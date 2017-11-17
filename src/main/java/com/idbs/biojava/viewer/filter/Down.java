@@ -21,4 +21,12 @@
 
 package com.idbs.biojava.viewer.filter;
 
+/**
+ * This class is a clone of Done with the following modifications:
+ *
+ * Usages of 'FeatureFilter' have been replaced with 'BjFeatureFilter'
+ *
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
+ */
+
 interface Down extends BjFeatureFilter {}

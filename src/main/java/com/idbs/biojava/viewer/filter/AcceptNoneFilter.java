@@ -19,6 +19,14 @@
  *
  */
 
+/**
+ * This class is a clone of AcceptNoneFilter with the following modifications:
+ *
+ * Usages of 'FeatureFilter' have been replaced with 'BjFeatureFilter'
+ *
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
+ */
+
 package com.idbs.biojava.viewer.filter;
 
 import org.biojava.bio.seq.*;
@@ -32,33 +40,30 @@ import org.biojava.bio.seq.*;
  * @since 1.2
  */
 class AcceptNoneFilter implements OptimizableFilter {
-  /**
-	 * 
-	 */
 	private static final long serialVersionUID = 6055301571935960951L;
 
-protected AcceptNoneFilter() {}
-  
-  public boolean accept(Feature f) { return false; }
-  
-  public boolean equals(Object o) {
+    protected AcceptNoneFilter() {}
+
+    public boolean accept(Feature f) { return false; }
+
+    public boolean equals(Object o) {
     return o instanceof AcceptNoneFilter;
-  }
-  
-  public int hashCode() {
+    }
+
+    public int hashCode() {
     return 1;
-  }
-  
-  public boolean isProperSubset(BjFeatureFilter sup) {
+    }
+
+    public boolean isProperSubset(BjFeatureFilter sup) {
     return true;
-  }
-  
-  public boolean isDisjoint(BjFeatureFilter filt) {
+    }
+
+    public boolean isDisjoint(BjFeatureFilter filt) {
     return true;
-  }
-  
-  public String toString() {
-    return "None";
-  }
+    }
+
+    public String toString() {
+      return "None";
+    }
 }
 

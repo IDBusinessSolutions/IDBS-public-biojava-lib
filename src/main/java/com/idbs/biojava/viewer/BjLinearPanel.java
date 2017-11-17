@@ -1,9 +1,3 @@
-/*****************************************************************************\
- *  SEE NOTES ON EWB DEVELOPMENT BELOW LICENCE NOTICE.
-/*****************************************************************************/
-
-
-
 /*
  *                    BioJava development code
  *
@@ -25,9 +19,6 @@
  *
  */
 
-
-
-
 /*****************************************************************************\
  *  In order to maintain the architecture for the EWB code, and to allow for 
  *  easy extension the original class 
@@ -45,21 +36,9 @@
  *  3) A fix to paintComponent that corrects the horizontal track range
  *  (maxAcross)
  *  4) Additional comments for clarity.
+ *
+ *  Copyright (C) 1993-2017 ID Business Solutions Limited
 /*****************************************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 package com.idbs.biojava.viewer;
 
@@ -76,8 +55,6 @@ import org.biojava.bio.gui.sequence.*;
 import org.biojava.bio.seq.*;
 import org.biojava.bio.symbol.*;
 import org.biojava.utils.*;
-
-
 
 /**
  * A panel that displays a Sequence.

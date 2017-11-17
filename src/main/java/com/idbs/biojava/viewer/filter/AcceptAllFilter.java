@@ -19,6 +19,14 @@
  *
  */
 
+/**
+ * This class is a clone of AcceptAllFilter with the following modifications:
+ *
+ * Usages of 'FeatureFilter' have been replaced with 'BjFeatureFilter'
+ *
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
+ */
+
 package com.idbs.biojava.viewer.filter;
 
 import org.biojava.bio.seq.*;
@@ -33,33 +41,31 @@ import org.biojava.bio.seq.*;
  * @since 1.0
  */
 class AcceptAllFilter implements OptimizableFilter {
-  /**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 3432436173890781833L;
 
-protected AcceptAllFilter() {}
+    protected AcceptAllFilter() {}
   
-  public boolean accept(Feature f) { return true; }
-  
-  public boolean equals(Object o) {
+    public boolean accept(Feature f) { return true; }
+
+    public boolean equals(Object o) {
     return o instanceof AcceptAllFilter;
-  }
-  
-  public int hashCode() {
+    }
+
+    public int hashCode() {
     return 0;
-  }
-  
-  public boolean isProperSubset(BjFeatureFilter sup) {
+    }
+
+    public boolean isProperSubset(BjFeatureFilter sup) {
     return sup instanceof AcceptAllFilter;
-  }
-  
-  public boolean isDisjoint(BjFeatureFilter filt) {
+    }
+
+    public boolean isDisjoint(BjFeatureFilter filt) {
     return filt instanceof AcceptNoneFilter;
-  }
-  
-  public String toString() {
-    return "All";
-  }
+    }
+
+    public String toString() {
+        return "All";
+      }
 }
 

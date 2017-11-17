@@ -1,8 +1,5 @@
-/*****************************************************************************\
- *  SEE NOTES ON EWB DEVELOPMENT BELOW LICENCE NOTICE.
-/*****************************************************************************/
 /*
-
+ *
  *                    BioJava development code
  *
  * This code may be freely distributed and modified under the
@@ -27,6 +24,8 @@
  * 
  * The code that checks for db_xref has been removed, as we do not want the Taxon Object to be created
  *  We need the db_xref to be added as a regular feature.
+ *
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
  */
 package com.idbs.biojava.parser;
 

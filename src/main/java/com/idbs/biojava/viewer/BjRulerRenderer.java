@@ -19,6 +19,16 @@
  *
  */
 
+/**
+ * This class is a clone of {@link RulerRenderer} with modifications to the
+ * rendering code.
+ *
+ * Modifications include corrected ruler extent and enhancements to label
+ * visibility.
+ *
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
+ */
+
 package com.idbs.biojava.viewer;
 
 import java.awt.*;
@@ -32,12 +42,6 @@ import org.biojava.bio.gui.sequence.*;
 import org.biojava.bio.symbol.*;
 
 /**
- * This class is a clone of {@link RulerRenderer} with modifications to the
- * rendering code.
- * 
- * Modifications include corrected ruler extent and enhancements to label
- * visibility. 
- * 
  * <p><code>BjRulerRenderer</code> renders numerical scales in sequence
  * coordinates. The tick direction may be set to point upwards (or
  * left when the scale is vertical) or downwards (right when the scale
@@ -51,7 +55,7 @@ import org.biojava.bio.symbol.*;
  * @author Thomas Down
  * @author David Huen
  * @author Keith James
- * @author Kalle Näslund
+ * @author Kalle Nï¿½slund
  */
 public class BjRulerRenderer implements SequenceRenderer
 {

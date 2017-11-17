@@ -1,6 +1,3 @@
-/*****************************************************************************\
- *  SEE NOTES ON EWB DEVELOPMENT BELOW LICENCE NOTICE.
- /*****************************************************************************/
 /*
  *                    BioJava development code
  *
@@ -46,6 +43,8 @@
  *  This allows the child classes to to paint feature selection arcs 
  *  correctly. It may be relavant to reinstate this if the selection 
  *  arc is placed on an overlay panel.
+ *
+ *  Copyright (C) 1993-2017 ID Business Solutions Limited
  *  
 /*****************************************************************************/
 package com.idbs.biojava.viewer;

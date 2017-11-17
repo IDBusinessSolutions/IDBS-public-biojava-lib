@@ -19,6 +19,14 @@
  *
  */
 
+/**
+ * This class is a clone of FilterUtils with the following modifications:
+ *
+ * Usages of 'FeatureFilter' have been replaced with 'BjFeatureFilter'
+ *
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
+ */
+
 package com.idbs.biojava.viewer.filter;
 
 import java.util.*;

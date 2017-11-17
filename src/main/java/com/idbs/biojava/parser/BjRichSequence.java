@@ -1,6 +1,3 @@
-/*****************************************************************************\
- *  SEE NOTES ON EWB DEVELOPMENT BELOW LICENCE NOTICE.
-/*****************************************************************************/
 /*
  *                    BioJava development code
  *
@@ -22,12 +19,6 @@
  *
  */
 
-
-
-
-
-
-
 /*****************************************************************************\
  *  In order to facilitate correct typing of the sequence format, the BioJava 
  *  SequenceFormat implementations have been extended (eg GenbankFormat is 
@@ -39,7 +30,10 @@
  *   copy the entire RichSequence class into Blofeld (renamed to 
  *   BjRichSequence) and use this as the file reader. Other than the name 
  *   there have been no changes.
+ *
+ *  Copyright (C) 1993-2017 ID Business Solutions Limited
 /*****************************************************************************/
+
 package com.idbs.biojava.parser;
 
 import java.io.*;

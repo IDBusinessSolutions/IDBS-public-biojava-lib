@@ -19,6 +19,15 @@
  *
  */
 
+/**
+ * This class is a clone of FilterUtils with the following modifications:
+ *
+ * Added a commented out method
+ *
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
+ */
+
+
 package com.idbs.biojava.viewer;
 
 import java.awt.*;

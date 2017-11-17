@@ -1,6 +1,3 @@
-/*****************************************************************************\
- *  SEE NOTES ON EWB DEVELOPMENT BELOW LICENCE NOTICE.
-/*****************************************************************************/
 /*
  *                    BioJava development code
  *
@@ -26,6 +23,8 @@
  * This class is a clone of BjFeatureBlockSequence with the following modifications:
  * 
  * Change to use fixed version of FilterUtils when rendering.
+ *
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
  */
 package com.idbs.biojava.viewer;
 

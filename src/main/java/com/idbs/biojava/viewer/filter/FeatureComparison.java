@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 1993-2011 ID Business Solutions Limited
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
  * All rights reserved
  *  
  * Created by: rtuck

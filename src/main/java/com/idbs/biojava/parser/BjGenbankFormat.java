@@ -1,6 +1,3 @@
-/*****************************************************************************\
- *  SEE NOTES ON EWB DEVELOPMENT BELOW LICENCE NOTICE.
-/*****************************************************************************/
 /*
 
  *                    BioJava development code
@@ -28,6 +25,8 @@
  * The code that checks for db_xref has been removed, as we do not want the Taxon Object to be created
  *  We need the db_xref to be added as a regular feature.
  *  The code that ignores "Bond" data, is now changed to add "Bond"s as features.(This is especially important for Genpept files.)
+ *
+ * Copyright (C) 1993-2017 ID Business Solutions Limited
  */
 package com.idbs.biojava.parser;
 

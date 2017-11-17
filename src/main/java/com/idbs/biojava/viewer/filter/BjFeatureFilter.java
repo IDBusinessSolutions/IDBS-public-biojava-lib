@@ -1,9 +1,3 @@
-/*****************************************************************************\
- *  SEE NOTES ON EWB DEVELOPMENT BELOW LICENCE NOTICE.
-/*****************************************************************************/
-
-
-
 /*
  *                    BioJava development code
  *
@@ -24,9 +18,6 @@
  *      http://www.biojava.org/
  *
  */
-
-
-
 
 /*****************************************************************************\
  *  In order to maintain the architecture for the EWB code, and to allow for 
@@ -49,6 +40,8 @@
  *  
  *  Note also that it uses the pure copies (bar package) of the BioJava 
  *  classes found in this package
+ *
+ *  Copyright (C) 1993-2017 ID Business Solutions Limited
 /*****************************************************************************/
 
 package com.idbs.biojava.viewer.filter;
@@ -280,22 +273,20 @@ public interface BjFeatureFilter extends org.biojava.bio.seq.FeatureFilter {
             throw new NullPointerException("Type may not be null");
         this.type = type;
     }
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
+
+    /**
+     * The following method was changed from the original to be case-insensitive
+     *
+     * Copyright (C) 1993-2011 ID Business Solutions Limited
+     * **/
+
     /**
      * Returns true if the feature has a matching type property.
      */
     public boolean accept(Feature f) {
       return type.equalsIgnoreCase(f.getType());
     }
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
-/**++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**/
+
 
     public boolean equals(Object o) {
       return
